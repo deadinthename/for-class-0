@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(165, 166, 255);
+    text-align: justify;
+}
+
+header {
+    width: 100%;
+}
+
+aside {
+    flex: 1;
+    min-width: 200px;
+}
+
+article {
+    flex: 2;
+    min-width: 300px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
